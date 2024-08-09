@@ -6,7 +6,6 @@ import { Link } from 'react-scroll';
 
 const Navbar = () => {
   return (
-    <div>
      <nav className="navbar">
         <img src={logo} alt="logo" className='logo' />
         <div className="deskpotMenu">
@@ -20,7 +19,6 @@ const Navbar = () => {
             Contact Me
         </button>
      </nav>
-    </div>
   )
 }
 
