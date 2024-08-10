@@ -15,6 +15,7 @@ const Works = () => {
             <img src={works} alt="" className="worksImg" />
             <img src={works} alt="" className="worksImg" />
         </div>
+        <button className="workBtn">See More</button>
     </section>
   )
 }
