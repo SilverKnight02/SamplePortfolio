@@ -1,5 +1,6 @@
 #skills{
     overflow: hidden;
+    min-height: calc(100vh-4rem);
     width: 100vw;
     max-width: 65rem;
     display: flex;
@@ -8,6 +9,7 @@
     justify-content: center;
     text-align: center;
     margin: 0 auto;
+    border-top: 2px double red;
 }
 
 .skillTitle{
@@ -29,6 +31,7 @@
     width: 100vw;
     max-width: 80%;
     text-align: left;
+    color: white;
 }
 
 .skillBar{
